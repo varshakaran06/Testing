@@ -12,6 +12,7 @@ public class BaseClasses {
 	public static void loadurl(String url) {
 		driver.get(url);
 		//system .out.println
+		//changes
 	}
 
 	public static void click(WebElement element) {
