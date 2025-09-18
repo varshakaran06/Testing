@@ -5,13 +5,13 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
-
 public class BaseClasses {
 	public static WebDriver driver = null;
 	public static Actions actions = null;
 
 	public static void loadurl(String url) {
 		driver.get(url);
+		//system .out.println
 	}
 
 	public static void click(WebElement element) {
